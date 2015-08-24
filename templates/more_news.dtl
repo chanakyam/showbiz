@@ -86,7 +86,7 @@
             <div class="NewsDiv margin10_T">
                 <div class="LatestNews-thumb imgClass">
                      <a href="/more?id={{n.value._id}}">
-                     <img src="http://img1.contentapi.ws/{{n.value.view_image}}" alt="" title="{{n.value.title}}"/></a>    
+                     <img src="http://newscdn.lycos.com/{{n.value.view_image}}" alt="" title="{{n.value.title}}"/></a>    
                 </div>
                 <div class="LatestNews-description">
                     <!-- <h3>{{n.name}} </h3> -->
@@ -127,7 +127,7 @@
           {% for n in galleryimgs %}
           <li>
             <a href="/music">
-               <img src="http://img1.contentapi.ws/{{ n.thumb_image }}" alt=""  />
+               <img src="http://newscdn.lycos.com/{{ n.thumb_image }}" alt=""  />
             </a>
           </li>
           {% endfor %}      
@@ -137,7 +137,7 @@
         <div class="NewsDivHome">
             <div class="thumbdiv">
               <a href="/more?id={{n.value._id}}">
-              <img src="http://img1.contentapi.ws/{{ n.value.view_image }}" title="{{ n.value.title }} %}">
+              <img src="http://newscdn.lycos.com/{{ n.value.view_image }}" title="{{ n.value.title }} %}">
               </a>
             </div>
         <div class="description">
@@ -163,7 +163,7 @@
     {% for n in popularvideos %}
       <!-- <div class="popularvideo">
         <a href="/video?id={{n.id}}" >
-        <img src="http://img1.contentapi.ws/{{ n.thumb_image }}" title="{{ n.title }}">  
+        <img src="http://newscdn.lycos.com/{{ n.thumb_image }}" title="{{ n.title }}">  
         {{n.title}}
         </a>
         <span class="videotext"></span>
@@ -173,7 +173,7 @@
         <div class="popularvideo">
           <a href="/video?id={{n.id}}" >
           <div>
-          <img src="http://img1.contentapi.ws/{{ n.thumb_image }}" title="{{ n.title }}"> 
+          <img src="http://newscdn.lycos.com/world_news/{{ n.thumb_image }}" title="{{ n.title }}"> 
           <span class="videotext"></span>
           </div>
           <p>{{ n.title }}</p>

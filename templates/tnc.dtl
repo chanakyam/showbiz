@@ -133,13 +133,13 @@ In addition, <a class="blue" href="http://entertainmentgalaxy.com/">entertainmen
       <div class="LatestNewsDivHome">
           <!-- <div class="thumbdiv">
             <a href="/more?id={{n.id}}">
-            <img src="http://img1.contentapi.ws/{{ n.thumb_image }}" title="{{ n.title }}">
+            <img src="http://newscdn.lycos.com/{{ n.thumb_image }}" title="{{ n.title }}">
             </a>
           </div> -->
           <div class="lndescription">
             <a href="/more?id={{n.value.id}}">
             <!-- <h3>{{ n.name }}</h3> -->
-            <img src="http://img1.contentapi.ws/{{ n.value.thumb_image }}" title="{{ n.value.title }}">
+            <img src="http://newscdn.lycos.com/{{ n.value.thumb_image }}" title="{{ n.value.title }}">
             <p>{{ n.value.description|slice:":90" }}</p>
             <p>{{ n.value.upload_date }}</p>
             </a>
@@ -174,7 +174,7 @@ In addition, <a class="blue" href="http://entertainmentgalaxy.com/">entertainmen
     {% for n in popularvideos %}
       <div class="popularvideo">
         <a href="/video?id={{n.id}}" >
-        <div><img src="http://img1.contentapi.ws/{{ n.thumb_image }}" title="{{ n.title }}"> 
+        <div><img src="http://newscdn.lycos.com/world_news/{{ n.thumb_image }}" title="{{ n.title }}"> 
         <span class="videotext"></span> </div>
         {{n.title}}
         

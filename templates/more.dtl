@@ -82,7 +82,7 @@
   
   <div class="module inner">
                         
-        <img src="http://img1.contentapi.ws/{{allnews.base_image}}" title="{{allnews.name}}">             
+        <img src="http://newscdn.lycos.com/{{allnews.base_image}}" title="{{allnews.name}}">             
         <h2 class="margin10_T"> {{allnews.description}}</h2>                          
         <p class="content-paragraph margin10_T">{{allnews.news_body}}</p>
     
@@ -110,7 +110,7 @@
 	          <div class="NewsDivHome">
 	              <div class="thumbdiv">
 	                <a href="/more?id={{n.value._id}}">
-	                <img src="http://img1.contentapi.ws/{{ n.value.base_image }}" title="{{ n.value.title }} %}">
+	                <img src="http://newscdn.lycos.com/{{ n.value.base_image }}" title="{{ n.value.title }} %}">
 	                </a>
 	              </div>
 	          <div class="description">
@@ -134,7 +134,7 @@
 		{% for n in popularvideos %}
 	      <div class="popularvideo">
 	        <a href="/video?id={{n.id}}" >
-	        <div><img src="http://img1.contentapi.ws/{{ n.thumb_image }}" title="{{ n.title }}"> <span class="videotext"></span></div> 
+	        <div><img src="http://newscdn.lycos.com/world_news/{{ n.thumb_image }}" title="{{ n.title }}"> <span class="videotext"></span></div> 
 	        {{n.title}}</a>
 	        <!-- <span class="videotext"></span> -->
 	      </div>

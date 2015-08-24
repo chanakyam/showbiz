@@ -94,7 +94,7 @@
     	<!-- <div class="photo-gallery-interview_imgs">
     <div id="interview_imgs">         
       {% for img in allnews %}            
-        <div class="camera_green_skin" data-thumb="http://img1.contentapi.ws/{{ img.thumb_image }}" data-src="http://img1.contentapi.ws/{{ img.thumb_image }}" >   
+        <div class="camera_green_skin" data-thumb="http://newscdn.lycos.com/{{ img.thumb_image }}" data-src="http://newscdn.lycos.com/{{ img.thumb_image }}" >   
            <div class="camera_caption fadeFromRight">{{ img.description }}</div> 
         </div>          
       {% endfor %}
@@ -104,7 +104,7 @@
         <div class="NewsDivHome">
             <div class="thumbdiv">
               <a href="/more?id={{n.value._id}}">
-              <img src="http://img1.contentapi.ws/{{ n.value.view_image }}" title="{{ n.value.title }} %}">
+              <img src="http://newscdn.lycos.com/{{ n.value.view_image }}" title="{{ n.value.title }} %}">
               </a>
             </div>
         <div class="description">
@@ -138,7 +138,7 @@
           <div class="NewsDivHome">
               <div class="thumbdiv">
                 <a href="/more?id={{n.value._id}}">
-                <img src="http://img1.contentapi.ws/{{ n.value.view_image }}" title="{{ n.value.title }} %}">
+                <img src="http://newscdn.lycos.com/{{ n.value.view_image }}" title="{{ n.value.title }} %}">
                 </a>
               </div>
           <div class="description"><!-- value. -->
@@ -163,7 +163,7 @@
     {% for n in popularvideos %}
       <div class="popularvideo">
         <a href="/video?id={{n.id}}" >
-        <div><img src="http://img1.contentapi.ws/{{ n.thumb_image }}" title="{{ n.title }}">  
+        <div><img src="http://newscdn.lycos.com/world_news/{{ n.thumb_image }}" title="{{ n.title }}">  
         <span class="videotext"></span></div>
         {{n.title}}
         
