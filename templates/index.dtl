@@ -157,7 +157,7 @@
 			{% for n in music %}
 		    <div class="NewsDivHome">
 	      		<div class="thumbdiv">
-	        		<a href="/more?id={{n.value.id}}">
+	        		<a href="/more?id={{n.value._id}}">
 			        <img src="http://newscdn.lycos.com/{{ n.value.view_image }}" title="{{ n.value.title }} %}">
 			        </a>
 	      		</div>
